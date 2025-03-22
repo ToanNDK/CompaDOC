@@ -45,26 +45,22 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/ToanNDK/CompaDOC',
         },
         blog: {
+          path: 'blog', 
+          routeBasePath: 'blog', 
           showReadingTime: true,
+          editUrl: 'https://github.com/ToanNDK/CompaDOC',
+          blogSidebarTitle: 'Tất cả bài viết',
+          blogSidebarCount: 'ALL',
+          postsPerPage: 5, 
           feedOptions: {
             type: ['rss', 'atom'],
-            xslt: true,
+            copyright: `Bản quyền © ${new Date().getFullYear()} COMPACLASS.`,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
         },
+        
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -76,7 +72,7 @@ const config = {
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   ({
     // Replace with your project's social card
-    image: 'img/social-card.jpg', // Đổi ảnh đại diện
+    image: 'img/social-card.jpg', 
     navbar: {
       title: 'COMPACLASS',
       logo: {
@@ -88,13 +84,12 @@ const config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Release Notes',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
-        { to: '/about', label: 'About', position: 'left' },
-        { to: '/testing', label: 'Testing', position: 'left' },
+        { to: '/blog', label: 'Bug', position: 'left' },
+       
         {
-          href: 'https://github.com/your-repo', // Thay thế link GitHub của dự án bạn
+          href: 'https://github.com/ToanNDK/CompaDOC', 
           label: 'GitHub',
           position: 'right',
         },
@@ -125,7 +120,7 @@ const config = {
             },
             {
               label: 'Facebook',
-              href: 'https://twitter.com/', // Đổi "X" thành "Twitter" cho dễ nhận diện
+              href: 'https://twitter.com/', 
             },
           ],
         },

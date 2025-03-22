@@ -1,8 +1,8 @@
 yangshun:
-  name: Yangshun Tay
+  name: COMPA
   title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+  url: https://github.com/ToanNDK
+  image_url: https://github.com/ToanNDK.png
   page: true
   socials:
     x: yangshunz
@@ -18,16 +18,16 @@ Toan:
   
 
 slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+  name: Admin
+  title:  Back End Engineer 
+  url: https://github.com/ToanNDK
+  image_url: https://github.com/ToanNDK.png
   page:
     # customize the url of the author page at /blog/authors/<permalink>
     permalink: '/all-sebastien-lorber-articles'
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
+    
+    
     github: slorber
     newsletter: https://thisweekinreact.com
   

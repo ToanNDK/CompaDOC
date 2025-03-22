@@ -1,9 +1,16 @@
 ---
-title: Giới thiệu
+title: Các tính năng trên COMPA
 sidebar_position: 1
 ---
 
-# 🌟 COMPACLASS
+# 🌟 LEARN
+
+Chúng tôi là một **nền tảng giáo dục năng động và sáng tạo**, cam kết cung cấp cho người học một loạt các dịch vụ và phương pháp đa dạng, được thiết kế để **hỗ trợ hành trình học tập** của họ.  
+
+📚 Nền tảng của chúng tôi có một **danh mục khóa học phong phú**, bao gồm nhiều môn học khác nhau, đảm bảo người học có thể tìm thấy **khóa học phù hợp nhất** cho mục tiêu học tập của mình.  
+
+---
+# 🌟 STUDIO
 
 Chúng tôi là một **nền tảng giáo dục năng động và sáng tạo**, cam kết cung cấp cho người học một loạt các dịch vụ và phương pháp đa dạng, được thiết kế để **hỗ trợ hành trình học tập** của họ.  
 
