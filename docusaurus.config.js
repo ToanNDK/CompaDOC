@@ -86,7 +86,7 @@ const config = {
           position: 'left',
           label: 'Release Notes',
         },
-        { to: '/blog', label: 'Bug', position: 'left' },
+        { to: '/blog', label: 'Automation Test', position: 'left' },
        
         {
           href: 'https://github.com/ToanNDK/CompaDOC', 
